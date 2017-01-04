@@ -119,3 +119,17 @@ Specificity - The more specific rule wins
 --> img/specificity.png
 
 Styles are Comulative
+
+=================================
+1.8 Browser rendering differences
+=================================
+
+Every browser has its own rendering engine that it uses to parse your code and determine how it's supposed to display.
+
+Trident - Internet Explorer
+Edge - Edge
+Presto - Opera
+Gecko - Firefox
+Webkit - Safari
+Blink - Chrome and Opera
+
