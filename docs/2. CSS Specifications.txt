@@ -7,3 +7,18 @@
 =============================
 
 --> http://www.w3.org/style/css/current-work.en.html
+
+=================================
+2.3 Exploring CSS Specifications
+=================================
+
+http://www.w3.org/style/css/current-work.en.html
+http://www.w3.org/TR
+
+Recomendation:
+Cascading Style Sheets Level 2 Revision 1 (CSS2.1) Specification
+
+
+http://drafts.csswg.org/indexes/#properties
+
+http://goo.gl/RzVvPw
