@@ -2,3 +2,8 @@
 2.1 A brief history of CSS
 ===========================
 
+=============================
+2.2 The current state of CSS
+=============================
+
+--> http://www.w3.org/style/css/current-work.en.html
