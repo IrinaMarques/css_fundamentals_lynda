@@ -91,3 +91,16 @@ Guidelines for writing HTML:
 - Don't focus on styling when initially structuring the code
 - Much easier to style well-structured code
 
+==========================
+1.6 CSS authoring options
+==========================
+
+Style Location:
+- External styles - main.css
+- Embedded styles - index.html
+- Inline styles - index.html
+
+Authoring Considerations:
+- Most projects will rely heavily on external styles.
+- Embedded styles are mainly used to overwrite external styles.
+- You should plan an overall site strategy for style placement.
