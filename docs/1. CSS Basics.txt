@@ -27,16 +27,52 @@ Benefits of User Control:
 ===============
 
 Selectors - Tells the browser which element or elements in the document to style.
---> img/selectors
+--> img/selectors.png
 
 Declarations - Enclosed on curly braces, uses the formatting instructions for the style. 
---> img/declarations
+--> img/declarations.png
 
 Property and Value - These are separated by colons and use a semicolon to tell the browser to stop evaluating and move on to the next rule. 
---> img/property_value
+--> img/property_value.png
 
 Focus on the basic elements of CSS syntax first
 
 Explore the CSS specifications
 
 Read through CSS from other sites
+
+=========================
+1.4 Basic selector types
+=========================
+
+Element Selector: 
+Are global in nature, meaning, they're going to affect every element of that type in a styled document.
+--> img/element_selector.png
+
+Class Selector:
+Attribute selector is based on class attributes applied to HTML elements. 
+--> img/class_selector.png
+
+ID Selector:
+Attribute selector is based on ID attributes applied to HTML elements. ID must be unique to the page.
+--> img/id_selector.png
+
+Element-specific Selectors:
+Modified class or ID selector that limits application to a specific element.
+--> img/element_specific_selector.png
+
+Descendent Selector:
+Highly specific selectors that target elements based on their location within other elements.
+--> img/descendent_selector.png
+--> img/descendent_selector_ex1.png
+--> img/descendent_selector_ex2.png
+
+Class and ID Naming Conventions:
+- No witespace or special characters
+- Case sensitive
+- Establish standards for your CSS and be consistent with them
+
+Grouping selectors:
+Allows you to group selectors that share formatting
+--> img/grouping_selectors_ex1.png
+--> img/grouping_selectors_ex2.png
