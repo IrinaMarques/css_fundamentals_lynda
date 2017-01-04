@@ -21,3 +21,22 @@ Benefits of User Control:
 - It prevents rendering issues from restricting access to content.
 - Users with disabilities ca override smaller text sizes
 - On the web, being able to access content matters
+
+===============
+1.3 CSS syntax
+===============
+
+Selectors - Tells the browser which element or elements in the document to style.
+--> img/selectors
+
+Declarations - Enclosed on curly braces, uses the formatting instructions for the style. 
+--> img/declarations
+
+Property and Value - These are separated by colons and use a semicolon to tell the browser to stop evaluating and move on to the next rule. 
+--> img/property_value
+
+Focus on the basic elements of CSS syntax first
+
+Explore the CSS specifications
+
+Read through CSS from other sites
