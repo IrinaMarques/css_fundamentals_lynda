@@ -76,3 +76,18 @@ Grouping selectors:
 Allows you to group selectors that share formatting
 --> img/grouping_selectors_ex1.png
 --> img/grouping_selectors_ex2.png
+
+======================================
+1.5 How CSS works with HTML structure
+======================================
+
+Don't use classes and ID attributes arbitrarily.
+Classes and IDs should be descriptive and meaningful.
+Use consistent HTML structure.
+
+Guidelines for writing HTML:
+- Focus on writing clean, efficient code
+- Structure the HTML so it add meaning to the content 
+- Don't focus on styling when initially structuring the code
+- Much easier to style well-structured code
+
