@@ -1,0 +1,11 @@
+=============
+What is CSS?
+=============
+
+Cascading Style Sheets is a style sheet language developed to control the presentation of markup language documents. 
+
+- Style sheets are a collection of formatting rules
+
+- Styles are most  commonly contained in external files
+
+- Styles are applied to pages in the order they are found, cascading down from external to local styles

@@ -1,2 +1,5 @@
 # css_fundamentals_lynda
-CSS: Fundamentals
+Based on the CSS: Fundamentals by James Williamson
+@lynda.com
+
+
