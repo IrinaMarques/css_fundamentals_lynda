@@ -46,3 +46,22 @@ Get a really good idea as to what's going on within the specification.
 
 Index:
 Property index is very useful.
+
+=============================
+2.5 Checking browser support
+=============================
+
+Tracking Browser Support
+- Nothing beats testing in multiple browsers and devices.
+- If possible, testing should be done in Safari, Chrome, Firefox, Opera, internet Explorer, and Edge.
+- Testing should be done on many mobile devices as possible.
+- There are multiple sites that can help you track browser support.
+
+--> http://caniuse.com
+--> http://www.quirksmode.org/compatibility.html
+--> http://goo.gl/EQUC0O - Mozilla
+--> https://goo.gl/mChRu8 - Safari 
+--> http://blog.chromium.org - Chrome
+--> https://goo.gl/f26wsu - Microsoft Edge
+
+
