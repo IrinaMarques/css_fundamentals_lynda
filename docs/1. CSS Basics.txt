@@ -104,3 +104,18 @@ Authoring Considerations:
 - Most projects will rely heavily on external styles.
 - Embedded styles are mainly used to overwrite external styles.
 - You should plan an overall site strategy for style placement.
+
+==============================
+1.7 How browsers apply styles
+==============================
+
+How browsers read selectors - from right to left.
+
+The Cascade - external styles are applied first, followed by embedded styles, and finally followed by inline styles, if they're applied within the document. The last rule applied wins.
+
+Inheritance - Inheritance essentially says that child elements will inherit the properties applied to a parent.
+
+Specificity - The more specific rule wins
+--> img/specificity.png
+
+Styles are Comulative
