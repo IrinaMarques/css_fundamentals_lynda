@@ -1,6 +1,6 @@
-=============
-What is CSS?
-=============
+================
+1.1 What is CSS?
+================
 
 Cascading Style Sheets is a style sheet language developed to control the presentation of markup language documents. 
 
@@ -9,3 +9,15 @@ Cascading Style Sheets is a style sheet language developed to control the presen
 - Styles are most  commonly contained in external files
 
 - Styles are applied to pages in the order they are found, cascading down from external to local styles
+
+==========================
+1.2 Default browser styles
+==========================
+
+Overwriting default styles 
+
+Benefits of User Control:
+- Giving the user control enhances accessibility
+- It prevents rendering issues from restricting access to content.
+- Users with disabilities ca override smaller text sizes
+- On the web, being able to access content matters
