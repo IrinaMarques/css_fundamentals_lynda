@@ -22,3 +22,27 @@ Cascading Style Sheets Level 2 Revision 1 (CSS2.1) Specification
 http://drafts.csswg.org/indexes/#properties
 
 http://goo.gl/RzVvPw
+
+===============================
+2.4 Reading CSS Specifications
+===============================
+
+Propose of Specifications
+- Specifications are written for implementors
+- Specs will often contain detailed parsing information, error handling, and syntax rules.
+- This complexity can often confuse authors.
+
+Ex.
+http://www.w3.org/TR/css3-fonts
+
+Abstract:
+Purpose of the specification.
+
+Satus for this document:
+Little snapshot of where it is within the process, what's currently being worked on and what it's next steps are.
+
+Table of contents:
+Get a really good idea as to what's going on within the specification.
+
+Index:
+Property index is very useful.
