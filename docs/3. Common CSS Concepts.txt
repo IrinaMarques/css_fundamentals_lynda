@@ -35,3 +35,23 @@ CSS Font Options:
 - Allow the browser to display its default font
 - Specify a system font and provide fallback options
 - Use @font-face to point to a hosted font resource
+
+====================
+3.1 Formatting text
+====================
+
+- font-family - To define a font
+- font-size - Define a Size
+- font-weight 
+- font-style
+- font-variant
+- text-transform
+- text-align
+- text-indent - Allows you to set a value to indent the first line of a block-level element such as a paragraph.
+- letter-spacing
+- letter-height
+ 
+Fixed Units vs. Relative Units
+- Fixed units are displayed at the requested size, regardless of device or context
+- Relative units are displayed relative to the environment in which they are found
+
