@@ -37,7 +37,7 @@ CSS Font Options:
 - Use @font-face to point to a hosted font resource
 
 ====================
-3.1 Formatting text
+3.2 Formatting text
 ====================
 
 - font-family - To define a font
