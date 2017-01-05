@@ -1,0 +1,37 @@
+=======================
+3.1 Working with fonts
+=======================
+
+Controlling typography.
+
+Choose a font for the website:
+- web fonts
+- system fonts
+
+System Fonts:  Fonts requested in the  CSS had to be installed on the client machine.
+- Serif
+Times
+Times New Roman
+Georgia
+- Sans-serif
+Arial
+Helvetica
+Verdana
+Geneva
+- Monospace
+Courier
+Courier New
+Monaco
+- Cursive
+Comic Sans
+
+--> img/system_fonts.png
+
+Web Fonts: Web fonts refer to the technique of having the browser downloan and install fonts requested in the page's styles, using the @font-face syntax. 
+
+@font face
+
+CSS Font Options:
+- Allow the browser to display its default font
+- Specify a system font and provide fallback options
+- Use @font-face to point to a hosted font resource
