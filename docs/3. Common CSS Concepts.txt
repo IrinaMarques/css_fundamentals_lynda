@@ -81,3 +81,49 @@ Box Model Considerations:
 - If a property is not declared, you can't assume the value is 0.
 - Elements often have default margins that you need to account for.
 -  A 100% width property when combined with padding and borders can create elements that are alrger than their parent.
+
+========================
+3.4 Margins and Padding
+========================
+- Padding -
+
+Padding syntax:
+
+Indiviual properties:
+- padding-top://values;
+- padding-right://values;
+- padding-bottom://values;
+- padding-left://values;
+
+Shorthand notation:
+- padding: 10px 20px 15px 10px; (top right bottom left)
+- padding: 10px 20px 15px; (top (left and right) bottom)
+- padding: 10px 10px; ((top and bottom)(right and left))
+- padding: 10px; (all sides)
+
+Padding considerations:
+Parent element - If the width property of a block-level element is not set, the element will expand to fill the parent, and allow padding to define the content width. 
+
+- Margins -
+
+- Represents the space between elements.
+- Margins values are not calculated as part of an element's total width.
+- Most elements have a default margin you must account for.
+
+Margin syntax:
+
+Indiviual properties:
+- margin-top://values;
+- margin-right://values;
+- margin-bottom://values;
+- margin-left://values;
+
+Shorthand notation:
+- margin: 10px 20px 15px 10px; (top right bottom left)
+- margin: 10px 20px 15px; (top (left and right) bottom)
+- margin: 10px 10px; ((top and bottom)(right and left))
+- margin: 10px; (all sides)
+
+Padding Considerations:
+Vertical margins collapse, with the larger of the top or bottom margin values used to calculate the amount of space between elements.
+Margins only collapse vertically; horizontal margins combine to create the total amount of spacing between elements.
