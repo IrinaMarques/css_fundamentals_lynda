@@ -55,3 +55,29 @@ Fixed Units vs. Relative Units
 - Fixed units are displayed at the requested size, regardless of device or context
 - Relative units are displayed relative to the environment in which they are found
 
+==========================
+3.3 What is the box model?
+==========================
+
+The box Model: Refers to the physical properties of an element's rectangular box. These are margins, borders, padding, and content width and height.
+
+Margin
+
+Border:
+border-width
+border-style
+border-color
+
+Padding
+
+Width and Height
+
+Box-sizing:
+content-box
+border-box
+--> img/box-sizing.png
+
+Box Model Considerations:
+- If a property is not declared, you can't assume the value is 0.
+- Elements often have default margins that you need to account for.
+-  A 100% width property when combined with padding and borders can create elements that are alrger than their parent.
