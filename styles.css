@@ -1,0 +1,41 @@
+/*BORDER STYLES*/
+
+.name1 {
+	border: 2px solid black;
+	width: 400px;
+}
+
+.name2 {
+	border: 2px dotted black;
+	width: 400px;
+}
+
+.name3 {
+	border: 2px dashed black;
+	width: 400px;
+}
+
+.name4 {
+	border: 10px double black;
+	width: 400px;
+}
+
+.name5 {
+	border: 10px groove grey;
+	width: 400px;
+}
+
+.name6 {
+	border: 10px ridge grey;
+	width: 400px;
+}
+
+.name7 {
+	border: 10px inset grey;
+	width: 400px;
+}
+
+.name8 {
+	border: 10px outset grey;
+	width: 400px;
+}
