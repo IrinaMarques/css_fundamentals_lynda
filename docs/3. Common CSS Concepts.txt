@@ -409,3 +409,40 @@ Using Vendor Prefixes:
 - To use these properties, we need to keep track of vendor prefixes, and vendor-specific syntax. 
 - There are online tools to make writting syntax easier
 - As a designer, the responsibility for making sure you stay up to date is yours alone 
+
+================
+3.14 CSS Resets
+================
+
+CSS Reset:
+A set of styles that nullify a browser's default style aheet, allowing designers to avoid conflicts between their styles and browser default styles.
+
+Css Reset Properties:
+- Margins
+- Padding
+- Borders
+- Font-size
+- Line-height
+
+Css Reset Placement
+--> img/css_reset.png
+
+--> http://goo.gl/pedg
+
+Css Reset Pros and Cons:
+- You're often setting the same propertie twice
+- Large resets can cause the browser to do intensive parsing and styling
+- Designers are given a consistent baseline for building styles
+
+Should you use a CSS Reset?
+- CSS Resets are up to the designer's personal preference.
+- In many cases, using them varies from one project to the next
+- If you chose to use one, you shouldm't just copy and paste it. 
+- You should study your site, and them tweak the reset to match the needs of your project
+
+Eric Meyer's "Reset CSS" 2.0
+HTML5 Doctor CSS Reset
+Yahoo! (YUI3) Reset CSS
+Universal Selector '*' Reset
+Normalize.css 1.0
+Free eBook: CSS Programming Cookbook
