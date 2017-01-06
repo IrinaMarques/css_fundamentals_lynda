@@ -341,3 +341,48 @@ Learning Layout Techniques:
 - Easy to learn the basics of CSS layouts
 - Focus on learning how browser rendering differences affect layout
 - Research multiple techniques, including emerging CSS3 methods - flexbox and CSS grid modules
+
+===================================
+3.12 Media types and media queries
+===================================
+
+Media Types:
+Media types allow you to serve different styles to multiple devices based on device type.
+- screen.css
+- print.css
+
+Media Query Syntax:
+link element syntax
+<link rel='stylesheet' type='text/css' href='styles.css' media='screen'>
+
+@import syntax
+@import url('styles.css') screen;
+
+@media rule
+@media screen {
+//styles
+}u
+
+Media types:
+- all
+- print
+- screen
+- speech
+
+Media Queries:
+Media queries allow you to combine media types with media features and expressions to further control when styles are applied based on color, screen width, and other factors.
+
+Media Syntax:
+link rel='stylesheet' href='desktop.css'
+media='[not|only] media type [and] (expression)'
+
+@media [not|only] media type [and] (expression) {...}
+
+Media Features:
+Filtering style application based on media features gives us more flexibility when targeting devices. Essentially it allows us to ignore the devices themselves and only focus on when certain features are supported regardless of the device. 
+
+--> img/media_features.png
+
+@media only screen and (max-width:480px) {
+/*styles*/
+}
