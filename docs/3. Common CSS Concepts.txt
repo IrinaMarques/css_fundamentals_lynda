@@ -259,3 +259,34 @@ Viewport Units:
 Percentages:
 % relative to is parent element.
 Great for responsive layouts.
+
+========================
+3.9 Element positioning
+========================
+
+CSS Positioning Schemes:
+- Normal flow
+- Element floating
+- Absolute positioning
+
+Normal flow: 
+
+Is exactly what happens when you do nothing to control page layout.
+
+Essentially, normal document flow takes the content in the order that it's found in the HTML and then stacks it, one element right on top of another. They just stack one top of another, much like blocks.
+
+Inline elements, like images, links, or span tags, will appear inside of those block-level elements, they simply stack themselves based on the flowing of line boxes.
+
+Position: static, relative, absolute, fixed, inherit.
+
+- Relative: considered part of normal document flow, but it allows you to tweak an element's position based on offset values that you could give it. Offset values can be given for top, left, bottom, or the right of an element.
+--> img/relative_positioning.png
+
+- Absolute: not considered part of normal document flow. it removes the element from normal flow and repositions it based on those offset values given. 
+--> img/absolute_positioning.png
+parent with position relative
+child with position absolute
+
+Fixed: it's fixed over the viewport.
+
+Element Stacking: can be controled by the z-property
