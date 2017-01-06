@@ -209,3 +209,53 @@ HSL:
 Hue: 0-360
 Saturation: 0-100%
 Lightness: 0-100%
+
+================================
+3.8 Common units of measurement
+================================
+
+lenght
+
+Absolute values: fixed values
+- in - inches
+- cm - centimeters
+- mm - millimeters
+- q - quarter millimeters
+- pt - points
+- pc - picas
+- px - pixels
+
+Pixels: 
+Pixels are a foundational unit of measurement for the web. 
+Difference between a device pixel, and a reference pixel.
+
+Device pixels refer to the individual pixels that make up a devices screen.
+Reference pixel, the definition for them is fairly technical, but the result is an abstract value, that roughly equals 1/96th of an inch based on the distance of the viewer.
+
+Relative values: their value is relative to the length of another property.
+- em - ems
+- rem - root ems
+- ex - exes
+- ch - character
+- vw - viewport width
+- vh - viewport height
+- vmin - viewport minimum
+- vmax - viewport maximum
+
+EMS:
+--> img/ems.png
+--> img/ems2.png
+
+Ex, Rem, and Ch:
+- Ex is based on the "x-height" of a font.
+- Root ems are like ems; only they're relative to the root unit (body, html), not the element's immediate parent. 
+- Character units are sized relative to the '0' glyph.
+
+Viewport Units:
+- vh and vw are equal to 1/100th o the viweport's width or height.
+- vmin and vmax are equal to 1/100th of the viewport's minimum or maximun height.
+- support is still uneven for these units
+
+Percentages:
+% relative to is parent element.
+Great for responsive layouts.
