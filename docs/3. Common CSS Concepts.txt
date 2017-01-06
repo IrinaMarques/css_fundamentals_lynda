@@ -187,3 +187,25 @@ Background-options:
 - background-image: url()
 
 It's possible an element have both backgound-color and background image. An it's possible to have multiple background images.
+
+======================
+3.7 Working with color
+======================
+
+CSS Color Properties:
+- border-color:red;
+- background-color:#fff;
+- color: rbg(255,128,0);
+
+Color property it's used to define the color for the content of an element.
+
+Color Name 
+Hexadecimal Notation and hexadecimal shorthand
+RGB color values
+HSL (Hue, Saturation, Lightness)
+Opacity - allows us to define transparency from 0 to 0.5
+
+HSL:
+Hue: 0-360
+Saturation: 0-100%
+Lightness: 0-100%

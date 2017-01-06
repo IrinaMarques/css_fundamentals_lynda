@@ -66,3 +66,39 @@
 	background-image: url(img/frank_cat.png);
 	/* control background-position, background-repeat, background-size, background-clip*/
 }
+
+/*COLOR*/ 
+
+.name12 {
+	border: 2px solid black;
+	width: 200px;
+	height: 200px;
+	color: red;
+}
+
+.name13 {
+	border: 2px solid black;
+	width: 200px;
+	height: 200px;
+	background-color: #abc;
+	
+}
+
+.name14 {
+	border: 2px solid black;
+	width: 200px;
+	height: 200px;
+	color: rgba(200,0,200, 0.3);
+	/* r - red (0 to 255), g - green(0 to 255), b - blue(0 to 255), a - alpha(from 0 to 0.5)*/ 
+}
+
+.name15 {
+	border: 2px solid black;
+	width: 200px;
+	height: 200px;
+	color: hsla(50, 50%, 50%, 0.4);
+	/* h - hue(0 to 360), s - saturation(0 to 100%), l - lightness(0 to 100%), a - alpha(from 0 to 0.5)*/
+}
+
+
+
