@@ -386,3 +386,26 @@ Filtering style application based on media features gives us more flexibility wh
 @media only screen and (max-width:480px) {
 /*styles*/
 }
+
+=====================
+3.13 Vendor prefixes
+=====================
+
+-ms- Microsoft
+-moz- Mozilla
+-o- Opera
+-khtml - Konqueror
+-webkit- Webkit
+
+Why we need vendor prefixes:
+- CSS is constantly evolving
+- Vendor prefixes usually indicate a property that is experimental
+- This gives designers the opportunity to use these properties as they are being developed
+- Without vendor prefixes, the same code could behave differently in multiple browsers
+- As implementations stabilize, the prefix is dropped
+
+Using Vendor Prefixes:
+- Vendor prefixes allow us to use features before they're standardized
+- To use these properties, we need to keep track of vendor prefixes, and vendor-specific syntax. 
+- There are online tools to make writting syntax easier
+- As a designer, the responsibility for making sure you stay up to date is yours alone 
