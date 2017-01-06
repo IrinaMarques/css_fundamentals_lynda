@@ -39,3 +39,30 @@
 	border: 10px outset grey;
 	width: 400px;
 }
+
+/*BACKGROUNDS*/
+
+.name9 {
+	border: 2px solid black;
+	width: 400px;
+	height: 200px;
+	background-color: red;
+}
+
+.name10 {
+	border: 2px solid black;
+	width: 400px;
+	height: 200px;
+	background: linear-gradient(to bottom, red, orange, yellow);
+	/* must define at least two colors, start and stop, we can add middle colors to stop between them*/
+	/* the direction can be: to top, to left, to right, to bottom, diagonal, angles, multicolor, transparency, repeat, radial...*/
+	/* background: linear-gradient(direction, color-stop1, color-stop2,...);*/
+}
+
+.name11 {
+	border: 2px solid black;
+	width: 400px;
+	height: 200px;
+	background-image: url(img/frank_cat.png);
+	/* control background-position, background-repeat, background-size, background-clip*/
+}

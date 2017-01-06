@@ -166,3 +166,24 @@ Outlines:
 - They can only be set fot the entire element, not individual sides.
 - The total width of an element is not affeted; in instances of touching elements, outlines will overlap.
 - There is poor overall support, especially in older browsers.
+
+===============
+3.6 Background
+===============
+
+--> img/background_syntax.png
+
+Background Area: Extend all the way to the inside edge of an element's border.
+
+Backgrounds display behind an element's content.
+
+The default style for most elements is to have a transparent background. 
+
+By explicitly setting the background property, you can choose to display solid colors, gradients, or even images behind an element's content.
+
+Background-options:
+- background-color
+- background: linear-gradient
+- background-image: url()
+
+It's possible an element have both backgound-color and background image. An it's possible to have multiple background images.
