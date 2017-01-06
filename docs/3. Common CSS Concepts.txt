@@ -127,3 +127,42 @@ Shorthand notation:
 Padding Considerations:
 Vertical margins collapse, with the larger of the top or bottom margin values used to calculate the amount of space between elements.
 Margins only collapse vertically; horizontal margins combine to create the total amount of spacing between elements.
+
+============
+3.5 Borders
+============
+
+Define the outside edge of elements, and are usually used to apply a decorative effect to specific elements. Borders can be used to help define elements and set them apart from other elements, can also provide text rules between elements.
+
+Three properties:
+- style
+- width
+- color
+
+Can be defined for the top, right, bottom, and left sides individually, or defined for the entire element at the same time.
+
+Shorthand:
+border: wight style color
+--> img/border_syntax.png
+
+Borders affect the overall width of an element.
+
+Border Styles - ten values:
+- solid
+- dotted
+- dashed
+- double
+- groove
+- ridge
+- inset
+- outset
+--> img/border_styles.png
+
+Border Images: Allows you to take a single image and slice it up so that the corners of the image align to the element corners, and the sides either repeat or stretch. The image is shown as the border of the element, with the border-width property dictating how much of the image is shown.
+
+Outlines:
+- Outlines have been a part of CSS since the 
+ specification.
+- They can only be set fot the entire element, not individual sides.
+- The total width of an element is not affeted; in instances of touching elements, outlines will overlap.
+- There is poor overall support, especially in older browsers.
