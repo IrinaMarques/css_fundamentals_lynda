@@ -290,3 +290,23 @@ child with position absolute
 Fixed: it's fixed over the viewport.
 
 Element Stacking: can be controled by the z-property
+
+============
+3.10 Floats
+============
+
+The technique works changes based upon the relationship of the elements that are being floated. 
+
+The elements below it then move up to occupy the space that the floated element used to occupy.
+--> img/float_element.png
+
+Clearing Floats:
+By using the clear property, you can tell the browser to stop floating elements and go back to normal document flow. The clear property can be set to prevent elements from floating to the left or right of an element, or set to both.
+--> img/clear_flow.png
+
+Learning objectives:
+- Learn how floated elements affect theis parents
+- Focus on learning how clearing works
+- Research how margins work between floated elements and static elements.
+- Find out how the width of the parent elements affect the floating ability of nested elements. 
+- look into the best practices that have evolved around floats
