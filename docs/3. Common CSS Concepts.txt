@@ -310,3 +310,34 @@ Learning objectives:
 - Research how margins work between floated elements and static elements.
 - Find out how the width of the parent elements affect the floating ability of nested elements. 
 - look into the best practices that have evolved around floats
+
+===============================
+3.11 Basic CSS layout concepts
+===============================
+
+Basic Layout Concepts:
+Content regions:
+- header
+- navigation
+- content
+- aside
+- footer
+
+Header
+--> img/header.png
+--> img/header_ex.png
+
+Navigation:
+--> img/navigation.png
+--> img/navigation_ex.png
+
+Aside and Content:
+--> img/aside_content.png
+
+Footer: 
+--> img/footer.png
+
+Learning Layout Techniques:
+- Easy to learn the basics of CSS layouts
+- Focus on learning how browser rendering differences affect layout
+- Research multiple techniques, including emerging CSS3 methods - flexbox and CSS grid modules
