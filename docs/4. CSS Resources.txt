@@ -53,4 +53,30 @@ http://getbase.org - HTML/CSS - respondive design and modular styles
 
 http://necolas.github.io/normalize.css
 
+======================
+4.3 CSS preprocessors
+======================
+
+CSS preprocessors are programs created to extend the functionality of CSS and make it easier for authors to write their code. They work by allowing authors to write styles using the preprocessor's extended syntax.
+
+What allows us to do:
+- CSS Variables --> @accent: #333
+- Nest Rules
+- Mixins
+- Mixin with functions
+- Css Operators
+
+Css Preprocessor Considerations:
+- To use them, you must learn the preporcessor syntax
+- Final CSS is abstracted away from the author's view
+- Code can be difficult to maintain
+- Many capabilities being preformed by preprocessors
+
+http://lesscss.org
+
+http://sass-lang.com
+
+http://stylus-lang.com
+
+https://github.com/postcss/postcss
 
