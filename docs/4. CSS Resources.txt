@@ -80,3 +80,9 @@ http://stylus-lang.com
 
 https://github.com/postcss/postcss
 
+=========================
+4.4 Additional resources
+=========================
+
+http://alvit.de/handbook
+https://goo.gl/x2Z1Y
