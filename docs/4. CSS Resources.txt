@@ -1,0 +1,56 @@
+=================================
+4.1 Using CSS frameworks & grids
+=================================
+
+CSS Frameworks:
+- Pre-prepared CSS files that provide a templating system for site layout and design.
+
+Common Framework Contents:
+CSS reset
+Common elements rules
+Basic element styling
+Basic Structural styling
+Browser inconsistencies
+Form & table styling
+Typography
+Css grid
+
+Css Grid:
+- They are designed to make building multicolumn layout easier
+- Grids can be based on fixed sizes, fluid layouts, or aspect rations
+- Prebuilt classes define the width and relationship between elements
+- To create layouts, designers simple apply the classes to structural elements
+- CSS grids are often part of larger frameworks, but can stand alone.
+
+CSS FRAMEWORKS Pros:
+- Can save considerable time when designing sites
+- Most assist with creating cross-browser compliant code
+- Build-in CSS grids apeed up layout development
+- This creates a consistent code-base for team environments
+
+CSS FRAMEWORKS Cons:
+- Most sites do not useall the features contained with frameworks
+- Some frameworks are structured with multiple CSS files.
+- Frameworks CSS tends to rely heavily on classes.
+
+Addictional Framework Considerations:
+- Framework can be difficult to update or debug
+- Adding funtionality can be time consuming
+- You need to be prepared to spend time mastering the framework.
+- Well-written frameworks are great ways to learn certain techniques.
+
+===========================
+4.2 Popular CSS frameworks
+===========================
+
+http://getbootstrap.com
+
+http://foundation.zurb.com
+
+http://purecss.io - only CSS - small and modular
+
+http://getbase.org - HTML/CSS - respondive design and modular styles
+
+http://necolas.github.io/normalize.css
+
+
